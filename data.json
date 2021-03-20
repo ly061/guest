@@ -1,0 +1,67 @@
+{
+  "id": 2,
+  "url": "/home",
+  "path": "/home",
+  "component":"Home",
+  "name": "首页菜单",
+  "iconCls": "fa fa-user-cicle-o",
+  "keepAlive": null,
+  "requireAuth": true,
+  "parentId": 1,
+  "enabled": true,
+  "rolse": "null",
+  "children": [
+    {
+      "id": 3,
+      "url": "/active",
+      "path": "/active",
+      "component":"Active",
+      "name": "活动学分",
+      "iconCls": "fa fa-user-cicle-o",
+      "keepAlive": null,
+      "requireAuth": true,
+      "parentId": 1,
+      "enabled": true,
+      "rolse": "null"
+    },
+    {
+      "id": 4,
+      "url": "/innovation",
+      "path": "/innovation",
+      "component":"Innovation",
+      "name": "创新学分",
+      "iconCls": "fa fa-user-cicle-o",
+      "keepAlive": null,
+      "requireAuth": true,
+      "parentId": 1,
+      "enabled": true,
+      "rolse": "null"
+    },
+    {
+      "id": 5,
+      "url": "/lecture",
+      "path": "/lecture",
+      "component":"Lecture",
+      "name": "讲座学分",
+      "iconCls": "fa fa-user-cicle-o",
+      "keepAlive": null,
+      "requireAuth": true,
+      "parentId": 1,
+      "enabled": true,
+      "rolse": "null"
+    },
+    {
+      "id": 6,
+      "url": "/read",
+      "path": "/read",
+      "component":"Read",
+      "name": "阅读学分",
+      "iconCls": "fa fa-user-cicle-o",
+      "keepAlive": null,
+      "requireAuth": true,
+      "parentId": 1,
+      "enabled": true,
+      "rolse": "null"
+    }
+  ]
+}
